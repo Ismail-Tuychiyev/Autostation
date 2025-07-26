@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AutoTuning Services</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="glass-nav">
+    <a href="Aloqa.html" style="position: relative; left: -45px;bottom: 30px; color: rgb(255, 255, 255);text-decoration: none;"><b>Aloqaga chiqish</b></a>
+    <a href="index.html"><img src="imegas/Logo animation copy.png" alt="" style="width: 70px;margin-left: -35px;margin-right: -35px;"></a>
+    <a href="bizhaqimizda.html" style="position: relative; left: 45px;bottom: 30px; margin-right: 19px; color: rgb(255, 255, 255);text-decoration: none;"><b>biz haqimizda</b></a>
+    <p style="font-size: small; ">Aftomobilingizni tanlang va hizmatlarimiz narhidan bilib oling</p>
+  </header>
+
+  <main id="car-list">
+    <!-- Car cards injected by JavaScript -->
+  </main>
+
+  <section id="service-details" class="hidden">
+    <h2 id="car-title"></h2>
+    <img id="car-image" src="" alt="" style="width: 500px; margin: 20px auto; display: block; border-radius: 10px;  ">
+    <ul id="service-list"></ul>
+    <button onclick="goBack()">⬅ Orqaga</button>
+  </section>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelector("#car-image"), {
+      max: 15,
+      speed: 400,
+      glare: true,
+      "max-glare": 0.4
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aloqaga chiqish | Auto Station</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #111, #333);
+      color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #ffc107;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      width: 80px;
+      height: 4px;
+      background-color: #ffc107;
+      margin: 10px auto 40px auto;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .contact-box {
+      flex: 1 1 300px;
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 4px solid #ffc107;
+    }
+
+    .contact-box h3 {
+      color: #ffc107;
+      margin-bottom: 10px;
+    }
+
+    .contact-box p, .contact-box a {
+      font-size: 16px;
+      color: #ddd;
+      text-decoration: none;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    form button {
+      background-color: #ffc107;
+      color: #111;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #e0a800;
+    }
+
+    .social-links a {
+      margin-right: 15px;
+      color: #ffc107;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-back {
+      display: block;
+      margin: 50px auto 0 auto;
+      background-color: #ffc107;
+      color: #111;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Aloqaga chiqish</h1>
+    <div class="divider"></div>
+
+    <div class="contact-info">
+      <div class="contact-box">
+        <h3>Telefon raqam</h3>
+        <p><a href="tel:+998901234567">+998 90 123 45 67</a></p>
+      </div>
+
+      <div class="contact-box">
+        <h3>Manzil</h3>
+        <p>Toshkent shahar, Chilonzor tumani, Avto ko‘cha 24-uy</p>
+      </div>
+
+      <div class="contact-box">
+        <h3>Ijtimoiy tarmoqlar</h3>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Telegram</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <form>
+      <h3 style="color: #ffc107;">Xabar yuborish</h3>
+      <label for="name">Ismingiz</label>
+      <input type="text" id="name" name="name" placeholder="Ismingizni kiriting">
+
+      <label for="phone">Telefon raqamingiz</label>
+      <input type="text" id="phone" name="phone" placeholder="+998 90 123 45 67">
+
+      <label for="message">Xabaringiz</label>
+      <textarea id="message" name="message" rows="4" placeholder="Savolingizni yozing..."></textarea>
+
+      <button type="submit">Yuborish</button>
+    </form>
+
+    <a href="index.html" class="btn-back">🏠 Asosiy sahifaga qaytish</a>
+  </div>
+</body>
+</html>
+
