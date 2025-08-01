@@ -185,15 +185,4 @@ const cars = {
     card.onclick = () => showServices(car);
     carList.appendChild(card);
   }
-
-  window.addEventListener('DOMContentLoaded', () => {
-    const params = new URLSearchParams(window.location.search);
-    const carParam = params.get('car');
-  
-    if (carParam && cars[carParam]) {
-      // Simulate clicking on that car automatically
-      showCarDetails(carParam);
-    }
-  });
-  
    

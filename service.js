@@ -17,6 +17,7 @@ const serviceData = {
           date: "5 soat",
           video: "IMG_7026.MOV"
         },
+        
 
       ],
       "Polirofka": [
@@ -37,7 +38,7 @@ const serviceData = {
         {
           name: " GLOBLE AIRIX",
           images: [
-            "",
+            "IMG_1205.",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
           ],
@@ -88,7 +89,7 @@ const serviceData = {
         {
           name: "Noisoff BEE STandart",
           images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "IMG_9276 2.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
           ],
@@ -147,20 +148,31 @@ const serviceData = {
   
     "Gentra": {
       "Keramika": [
+        
+       
         {
-          name: "Keramika",
+          name: "Premium Keramika",
           images: [
-            "IMG_1202.jpg",
-            "IMG_1195.jpg",
-            "IMG_1196.jpg",
-            "IMG_1197.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
           ],
-          price: "$300",
-          date: "5 soat",
-          video: "IMG_7026.MOV"
+          price: "$180",
+          date: "3 kun",
+          video: "IMG_7242.mp4"
         },
-      
-      
+        {
+          name: "Premium Keramika",
+          images: [
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
+          ],
+          price: "$180",
+          date: "3 kun",
+          video: "IMG_7242.mp4"
+        }
       ],
       "Polirofka": [
         {
@@ -170,7 +182,7 @@ const serviceData = {
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
           ],
-          price: "$430",
+          price: "$130",
           date: "2 kun",
           video: "IMG_7242.MOV"
         },
