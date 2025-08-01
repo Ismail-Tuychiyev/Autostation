@@ -6,100 +6,161 @@ const serviceData = {
     "Cobalt": {
       "Keramika": [
         {
-          name: "Standard Keramika",
+          name: "Keramika",
           images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "IMG_1194.jpg",
+            "IMG_1195.jpg",
+            "IMG_1196.jpg",
+            "IMG_1197.jpg",
+          ],
+          price: "$300",
+          date: "5 soat",
+          video: "IMG_7026.MOV"
+        },
+
+      ],
+      "Polirofka": [
+        {
+          name: "Polirofka",
+          images: [
+            "IMG_1194.jpg",
+            "IMG_1195.jpg",
+            "IMG_1196.jpg",
+            "IMG_1197.jpg",
+          ],
+          price: "$300",
+          date: "5 soat",
+          video: "IMG_7026.MOV"
+        },
+        
+      ], "Tonirovka": [
+        {
+          name: " GLOBLE AIRIX",
+          images: [
+            "",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
           ],
-          price: "$130",
-          date: "2 kun",
+          price: "$150",
+          date: "2 soat",
           video: "IMG_7242.MOV"
         },
         {
-          name: "Premium Keramika",
+          name: " GLOBLE ATEL",
           images: [
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
           ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
+          price: "$100",
+          date: "2 soat",
+          video: "IMG_7242.MOV"
+        },
+        
+      ],
+      "Salon laminatsiya": [
+        {
+          name: " Mativiy kareysky plyonka",
+          images: [
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
+          ],
+          price: "40$",
+          date: "2 soat",
+          video: "IMG_7242.MOV"
+        },
+      ],
+      "Broni plyonka": [
+        {
+          name: " Mativiy kareysky plyonka",
+          images: [
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
+          ],
+          price: "40$",
+          date: "2 soat",
+          video: "IMG_7242.MOV"
+        },
+      ],
+      "Shumka": [
+        {
+          name: "Noisoff BEE STandart",
+          images: [
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
+          ],
+          price: "40$",
+          date: "2 soat",
+          video: "IMG_7242.MOV"
         },
         {
-          name: "Premium Keramika",
+          name: "Noisoff BEE FULL",
           images: [
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
           ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
+          price: "40$",
+          date: "2 soat",
+          video: "IMG_7242.MOV"
         },
         {
-          name: "Premium Keramika",
+          name: "Airo sell 600 Standart",
           images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
           ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        }
-      ]
+          price: "40$",
+          date: "2 soat",
+          video: "IMG_7242.MOV"
+        },
+        {
+          name: "Airo sell 600 Full",
+          images: [
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
+          ],
+          price: "40$",
+          date: "2 soat",
+          video: "IMG_7242.MOV"
+        },
+      ],
+      "Ximchistka": [
+        {
+          name: " Noisoff BEE Full",
+          images: [
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
+            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
+          ],
+          price: "40$",
+          date: "2 soat",
+          video: "IMG_7242.MOV"
+        },
+      ],
     },
   
     "Gentra": {
       "Keramika": [
         {
-          name: "Standard Keramika",
+          name: "Keramika",
           images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
+            "IMG_1202.jpg",
+            "IMG_1195.jpg",
+            "IMG_1196.jpg",
+            "IMG_1197.jpg",
           ],
-          price: "$130",
-          date: "2 kun",
-          video: "IMG_7242.MOV"
+          price: "$300",
+          date: "5 soat",
+          video: "IMG_7026.MOV"
         },
-        {
-          name: "Premium Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        },
-        {
-          name: "Premium Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        },
-        {
-          name: "Premium Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        }
+      
+      
       ],
       "Polirofka": [
         {
@@ -109,7 +170,7 @@ const serviceData = {
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
             "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
           ],
-          price: "$130",
+          price: "$430",
           date: "2 kun",
           video: "IMG_7242.MOV"
         },

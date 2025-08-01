@@ -25,6 +25,45 @@ const cars = {
   
       }
     },
+    "Monza": {
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYZ39KwxiP4HTvTBfxUrOo61B1BCle-bP9g&s",
+      services: {
+        "Keramika": "$100",
+        "Polirofka": "$90",
+        "Tonirovka": "",
+        "Salon laminatsiya": "",
+        "Broni plyonka": "",
+        "Shumka": "",
+        "Ximchistka": ""
+  
+      }
+    },
+    "Equinox": {
+      img: "https://olamavto.uz/uploads/products/KXS2k3DJmugg47Wpbrez982mXc62szK0YUHwvC0K.png",
+      services: {
+        "Keramika": "$100",
+        "Polirofka": "$90",
+        "Tonirovka": "",
+        "Salon laminatsiya": "",
+        "Broni plyonka": "",
+        "Shumka": "",
+        "Ximchistka": ""
+  
+      }
+    },
+    "Equinox": {
+      img: "https://olamavto.uz/uploads/products/KXS2k3DJmugg47Wpbrez982mXc62szK0YUHwvC0K.png",
+      services: {
+        "Keramika": "$100",
+        "Polirofka": "$90",
+        "Tonirovka": "",
+        "Salon laminatsiya": "",
+        "Broni plyonka": "",
+        "Shumka": "",
+        "Ximchistka": ""
+  
+      }
+    },
     "Cobalt": {
       img: "https://test.chevrolet.uz/assets/images/cobalt/colours/1.png",
       services: {
@@ -146,4 +185,15 @@ const cars = {
     card.onclick = () => showServices(car);
     carList.appendChild(card);
   }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const params = new URLSearchParams(window.location.search);
+    const carParam = params.get('car');
+  
+    if (carParam && cars[carParam]) {
+      // Simulate clicking on that car automatically
+      showCarDetails(carParam);
+    }
+  });
+  
    

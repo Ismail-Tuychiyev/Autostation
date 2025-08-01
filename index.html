@@ -20,11 +20,18 @@
 
   <section id="service-details" class="hidden">
     <h2 id="car-title"></h2>
-    <img id="car-image" src="" alt="" style="width: 500px; margin: 20px auto; display: block; border-radius: 10px;  ">
+    <img id="car-image" src="" alt="" style="width: 500px; margin: 20px auto; display: block; border-radius: 10px;">
     <ul id="service-list"></ul>
-    <button onclick="goBack()">⬅ Orqaga</button>
+    <button id="backButton">← Orqaga</button>
   </section>
   
+  <script>
+    document.getElementById('backButton').addEventListener('click', () => {
+      // Go back to the car list page (without query)
+      window.location.href = "index.html";
+    });
+  </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
   <script>
     VanillaTilt.init(document.querySelector("#car-image"), {
@@ -37,3 +44,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
