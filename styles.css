@@ -260,3 +260,105 @@ body {
     border-color: #FFD700;
   }
   
+
+
+  .video-slider {
+    overflow: hidden;
+    padding: 30px 0;
+    background: white;
+    color: black;
+  }
+  
+  .slider-track {
+    display: flex;
+    gap: 30px;
+    animation: slide 20s linear infinite;
+    width: max-content;
+  }
+  
+  .slider-track.paused {
+    animation-play-state: paused;
+  }
+  
+  
+  .video-card {
+    background: #f0f0f0;
+    border-radius: 16px;
+    padding: 10px;
+    min-width: 240px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  video {
+    aspect-ratio: 9 / 10; /* TikTok yoki reels-style */
+    width: 100%;
+    max-height: 500px; /* Istalgan bo‘y */
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .video-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+
+
+  .video-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  .slider-track {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+  }
+  
+  .video-card {
+    flex: 0 0 auto;
+    width: 300px;
+    max-height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-card video {
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+    aspect-ratio: 9 / 16;
+  }
+  
+  .video-card p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  /* 🔽 Responsive: Mobil ekranlar uchun */
+  @media (max-width: 600px) {
+    .video-card {
+      width: 200px;
+    }
+  
+    .video-card p {
+      font-size: 16px;
+    }
+  }
+  

@@ -75,19 +75,20 @@ const serviceData = {
           video: "IMG_7242.MOV"
         },
       ],
-      "Broni plyonka": [
-        {
-          name: " Mativiy kareysky plyonka",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "40$",
-          date: "2 soat",
-          video: "IMG_7242.MOV"
-        },
+     "Broni plyonka": [
+    {
+      name: "Material/Option",
+      images: [
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
       ],
+      price: "$___",
+      date: "___",
+      video: "VIDEO.MOV"
+    },
+  ],
       "Shumka": [
         {
           name: "Noisoff BEE STandart",
@@ -225,52 +226,19 @@ const serviceData = {
       ],
       
       "Broni plyonka": [
-        {
-          name: "Standard Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$130",
-          date: "2 kun",
-          video: "IMG_7242.MOV"
-        },
-        {
-          name: "Premium Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        },
-        {
-          name: "Premium Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        },
-        {
-          name: "Premium Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        }
+    {
+      name: "Material/Option",
+      images: [
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
       ],
+      price: "$___",
+      date: "___",
+      video: "VIDEO.MOV"
+    },
+  ],
       
       "Shumka":  [
         {
@@ -327,7 +295,20 @@ const serviceData = {
     },
 
     "Tracker": {
-        
+        "Broni plyonka": [
+    {
+      name: "Material/Option",
+      images: [
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
+      ],
+      price: "$___",
+      date: "___",
+      video: "VIDEO.MOV"
+    },
+  ],
       "Shumka":  [
         {
           name: "Noisoff BEE STandart",
@@ -384,74 +365,32 @@ const serviceData = {
         
       "Keramika": [
         {
-          name: "Standard Keramika",
+          name: "Keramika",
           images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
+            "IMG_7529.jpg",
+            "IMG_7530.PNG",
+            "IMG_7532.jpg",
+            "IMG_7533.jpg",
           ],
           price: "$130",
           date: "2 kun",
           video: "IMG_7242.MOV"
         },
-        {
-          name: "Premium Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        },
-        {
-          name: "Premium Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        },
-        {
-          name: "Premium Keramika",
-          images: [
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg",
-            "https://www.seat.ps/content/dam/public/seat-website/seat-cars/car-maintenance/article-single-image-maintenance/seat-services-and-repair-maintenance.jpg"
-          ],
-          price: "$180",
-          date: "3 kun",
-          video: "IMG_7242.mp4"
-        }
       ],
-      "Polirovka": [
+      "Polirofka": [
       {
-        name: "Standard Polirovka",
+        name: "Polirovka",
         images: [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg"
+          "IMG_7529.jpg",
+            "IMG_7530.PNG",
+            "IMG_7532.jpg",
+            "IMG_7533.jpg",
         ],
         price: "$100",
         date: "1 kun",
         video: "polirovka_video.mp4"
       },
-      {
-        name: "Premium Polirovka",
-        images: [
-          "https://example.com/image4.jpg",
-          "https://example.com/image5.jpg",
-          "https://example.com/image6.jpg"
-        ],
-        price: "$150",
-        date: "2 kun",
-        video: "polirovka_premium.mp4"
-      }
+     
     ],
     
       
@@ -534,9 +473,10 @@ const serviceData = {
     {
       name: "Material/Option",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
       ],
       price: "$___",
       date: "___",
@@ -695,9 +635,10 @@ const serviceData = {
     {
       name: "Material/Option",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
       ],
       price: "$___",
       date: "___",
@@ -793,10 +734,10 @@ const serviceData = {
     {
       name: "Keramika",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_7522.jpg",
+        "IMG_7524.jpg",
+        "IMG_7525.jpg",
+        "IMG_7527.jpg",
       ],
       price: "$___",
       date: "___",
@@ -808,10 +749,10 @@ const serviceData = {
     {
       name: "Polirofka",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+       "IMG_7522.jpg",
+        "IMG_7524.jpg",
+        "IMG_7525.jpg",
+        "IMG_7527.jpg",
       ],
       price: "$___",
       date: "___",
@@ -823,10 +764,10 @@ const serviceData = {
     {
       name: "Option 1",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_7525.jpg",
+        "IMG_7534.jpg",
+        "IMG_7535.jpg",
+        "IMG_7536.jpg",
       ],
       price: "$___",
       date: "___",
@@ -835,10 +776,10 @@ const serviceData = {
     {
       name: "Option 2",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_7525.jpg",
+        "IMG_7534.jpg",
+        "IMG_7535.jpg",
+        "IMG_7536.jpg",
       ],
       price: "$___",
       date: "___",
@@ -861,13 +802,14 @@ const serviceData = {
     },
   ],
 
-  "Broni plyonka": [
+ "Broni plyonka": [
     {
       name: "Material/Option",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
       ],
       price: "$___",
       date: "___",
@@ -1017,9 +959,10 @@ const serviceData = {
     {
       name: "Material/Option",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
       ],
       price: "$___",
       date: "___",
@@ -1168,9 +1111,10 @@ const serviceData = {
     {
       name: "Material/Option",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
       ],
       price: "$___",
       date: "___",
@@ -1255,10 +1199,10 @@ const serviceData = {
     {
       name: "Keramika",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_7547.jpg",
+        "IMG_7548.jpg",
+        "IMG_7550.jpg",
+        "IMG_7555.jpg",
       ],
       price: "$___",
       date: "___",
@@ -1270,10 +1214,10 @@ const serviceData = {
     {
       name: "Polirofka",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_7547.jpg",
+        "IMG_7548.jpg",
+        "IMG_7550.jpg",
+        "IMG_7555.jpg",
       ],
       price: "$___",
       date: "___",
@@ -1283,24 +1227,24 @@ const serviceData = {
 
   "Tonirovka": [
     {
-      name: "Option 1",
+      name: " GLOBLE AIRIX",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_0372.jpg",
+        "IMG_7556.jpg",
+        "IMG_7555.jpg",
+        "IMG_7551.jpg",
       ],
       price: "$___",
       date: "___",
       video: "VIDEO.MOV"
     },
     {
-      name: "Option 2",
+      name: " GLOBLE ATEL",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_0372.jpg",
+        "IMG_7556.jpg",
+        "IMG_7555.jpg",
+        "IMG_7551.jpg",
       ],
       price: "$___",
       date: "___",
@@ -1312,7 +1256,7 @@ const serviceData = {
     {
       name: "Material/Option",
       images: [
-        "IMG_XXXX.jpg",
+        "IMG_0370.jpg",
         "IMG_XXXX.jpg",
         "IMG_XXXX.jpg",
         "IMG_XXXX.jpg",
@@ -1327,9 +1271,10 @@ const serviceData = {
     {
       name: "Material/Option",
       images: [
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
-        "IMG_XXXX.jpg",
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
       ],
       price: "$___",
       date: "___",
@@ -1402,6 +1347,171 @@ const serviceData = {
     },
   ],
 },
+
+
+
+
+
+"Travers": {
+  "Keramika": [
+    {
+      name: "Keramika",
+      images: [
+        "IMG_7562.jpg",
+        "IMG_7561.jpg",
+        "IMG_7559.jpg",
+        "IMG_7558.jpg",
+      ],
+      price: "$300",
+      date: "2 soat",
+      video: "VIDEO.MOV"
+    },
+  ],
+
+  "Polirofka": [
+    {
+      name: "Polirofka",
+      images: [
+        "IMG_7562.jpg",
+        "IMG_7561.jpg",
+        "IMG_7559.jpg",
+        "IMG_7558.jpg",
+      ],
+      price: "$___",
+      date: "___",
+      video: "VIDEO.MOV"
+    },
+  ],
+
+  "Tonirovka": [
+    {
+      name: "GLOBLE AIRIX",
+      images: [
+        "IMG_0333.jpg",
+        "IMG_0334.jpg",
+        "IMG_7561.jpg",
+        "IMG_7562.jpg",
+      ],
+      price: "$100",
+      date: "1 soat",
+      video: "VIDEO.MOV"
+    },
+    {
+      name: "GLOBLE ATEL",
+      images: [
+       "IMG_0333.jpg",
+        "IMG_0334.jpg",
+        "IMG_7561.jpg",
+        "IMG_7562.jpg",
+      ],
+      price: "$150",
+      date: "1 soat",
+      video: "VIDEO.MOV"
+    },
+  ],
+
+  "Salon laminatsiya": [
+    {
+      name: "Material/Option",
+      images: [
+        "IMG_0337.jpg",
+        "IMG_0336.jpg",
+        "IMG_0335.jpg",
+        
+      ],
+      price: "$___",
+      date: "___",
+      video: "VIDEO.MOV"
+    },
+  ],
+
+  "Broni plyonka": [
+    {
+      name: "Material/Option",
+      images: [
+        "IMG_0338.jpg",
+        "IMG_0339.jpg",
+        "IMG_0340.jpg",
+        "IMG_0341.jpg",
+      ],
+      price: "$___",
+      date: "___",
+      video: "VIDEO.MOV"
+    },
+  ],
+
+  "Shumka":  [
+    {
+      name: "Noisoff BEE STandart",
+      images: [
+        "IMG_9276 2.jpg",
+        "IMG_9275 2.PNG",
+        "IMG_9278 2.PNG",
+        "IMG_9278 2.PNG",
+      ],
+      price: "400$",
+      date: "10 soat",
+      video: "IMG_7242.MOV"
+    },
+    {
+      name: "Noisoff BEE FULL",
+      images: [
+        "IMG_9275 2.PNG",
+        "IMG_9276 2.jpg",
+        "IMG_9278 2.PNG",
+        "IMG_9277 2.jpg",
+      ],
+      price: "500$",
+      date: "2 soat",
+      video: "IMG_7242.MOV"
+    },
+    {
+      name: "Airo sell 600 Standart",
+      images: [
+       "IMG_0309.JPG",
+        "IMG_0308.jpg",
+        "IMG_1303.jpg",
+        "IMG_1304.jpg",
+        
+        
+      ],
+      price: "40$",
+      date: "2 soat",
+      video: "IMG_7242.MOV"
+    },
+    {
+      name: "Airo sell 600 Full",
+      images: [
+        "IMG_0307.PNG",
+        "IMG_0309.JPG",
+        "IMG_1303.jpg",
+        "IMG_0311.jpg",
+      ],
+      price: "40$",
+      date: "2 soat",
+      video: "IMG_7242.MOV"
+    },
+  ],
+
+
+  "Ximchistka": [
+    {
+      name: "Type 1",
+      images: [
+        "IMG_XXXX.jpg",
+        "IMG_XXXX.jpg",
+        "IMG_XXXX.jpg",
+      ],
+      price: "$___",
+      date: "___",
+      video: "VIDEO.MOV"
+    },
+  ],
+},
+
+
+
+
 
 
 

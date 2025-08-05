@@ -14,6 +14,41 @@
     <p style="font-size: small; ">Aftomobilingizni tanlang va hizmatlarimiz narhidan bilib oling</p>
   </header>
 
+
+  <section class="video-slider">
+    <div class="slider-track">
+      <div class="video-card">
+        <video src="1video.mp4" autoplay muted loop></video>
+        <p>Keramika</p>
+      </div>
+      <div class="video-card">
+        <video src="2video.mp4" autoplay muted loop></video>
+        <p>Shumka</p>
+      </div>
+      <div class="video-card">
+        <video src="4video.mp4" autoplay muted loop></video>
+        <p>Shohruh</p>
+      </div>
+      <div class="video-card">
+        <video src="3video.mp4" autoplay muted loop></video>
+        <p>Barno</p>
+      </div>
+
+      <div class="video-card">
+        <video src="2video.mp4" autoplay muted loop></video>
+        <p>Shumka</p>
+      </div>
+      <div class="video-card">
+        <video src="1video.mp4" autoplay muted loop></video>
+        <p>Keramika</p>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
   <main id="car-list">
     <!-- Car cards injected by JavaScript -->
   </main>
@@ -34,6 +69,34 @@
       "max-glare": 0.4
     });
   </script>
+
+
+<script>
+  const videos = document.querySelectorAll('.video-card video');
+  const sliderTrack = document.querySelector('.slider-track');
+
+  videos.forEach(video => {
+    let isPaused = false;
+
+    video.addEventListener('click', () => {
+      if (!isPaused) {
+        // Stop slider and play video
+        sliderTrack.classList.add('paused');
+        video.play();
+        videos.forEach(v => {
+          if (v !== video) v.pause();
+        });
+        isPaused = true;
+      } else {
+        // Resume slider and pause video
+        sliderTrack.classList.remove('paused');
+        video.pause();
+        isPaused = false;
+      }
+    });
+  });
+</script>
+
   <script src="script.js"></script>
 </body>
 </html>
