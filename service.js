@@ -18,8 +18,7 @@ const serviceData = {
           video: "IMG_7026.MOV"
         },
         
-
-      ],
+        ],
       "Polirofka": [
         {
           name: "Polirofka",
@@ -124,7 +123,7 @@ const serviceData = {
             
             
           ],
-          price: "40$",
+          price: "400$",
           date: "2 soat",
           video: "IMG_7242.MOV"
         },
@@ -136,7 +135,7 @@ const serviceData = {
             "IMG_1303.jpg",
             "IMG_0311.jpg",
           ],
-          price: "40$",
+          price: "400$",
           date: "2 soat",
           video: "IMG_7242.MOV"
         },
@@ -1541,7 +1540,7 @@ options.forEach(opt => {
   card.innerHTML = `
     <div class="image-gallery">${imageHTML}</div>
     <h3>${opt.name}</h3>
-    <p>Narxi: ${opt.price}</p>
+   
     <p>Bajarilish muddati: ${opt.date}</p>
     ${videoHTML}
   `;

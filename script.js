@@ -2,8 +2,8 @@ const cars = {
     "TAHOE": {
       img: "https://www.autooutlet.cz/wp-content/uploads/2024/12/web.png",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
@@ -15,8 +15,8 @@ const cars = {
     "Gentra": {
       img: "https://fergana.media/siteapi/media/images/b502e6a6-1db1-4f80-a9ab-a51b703a42c2.png",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
@@ -28,8 +28,8 @@ const cars = {
     "Monza": {
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYZ39KwxiP4HTvTBfxUrOo61B1BCle-bP9g&s",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
@@ -41,8 +41,8 @@ const cars = {
     "Equinox": {
       img: "https://olamavto.uz/uploads/products/KXS2k3DJmugg47Wpbrez982mXc62szK0YUHwvC0K.png",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
@@ -54,8 +54,8 @@ const cars = {
     "Equinox": {
       img: "https://olamavto.uz/uploads/products/KXS2k3DJmugg47Wpbrez982mXc62szK0YUHwvC0K.png",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
@@ -67,8 +67,8 @@ const cars = {
     "Cobalt": {
       img: "https://test.chevrolet.uz/assets/images/cobalt/colours/1.png",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
@@ -79,8 +79,8 @@ const cars = {
     "Nexia 3": {
       img: "https://avtotexxizmat.uz/uploads/car-color/KK/KK/KA/1635147517.png",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
@@ -91,8 +91,8 @@ const cars = {
     "Tracker": {
       img: "https://chevrolet.com.ph/wp-content/uploads/2022/08/tracker-Satin-Steel-Gray-Metallic-min.png",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
@@ -104,8 +104,8 @@ const cars = {
     "Onix": {
       img: "https://chevrolet.uz/assets/images/onix/colors/01/2.png",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
@@ -116,8 +116,8 @@ const cars = {
     "Travers": {
       img: "https://test.chevrolet.uz/assets/images/traverse/colors/1.png",
       services: {
-        "Keramika": "$100",
-        "Polirofka": "$90",
+        "Keramika": "",
+        "Polirofka": "",
         "Tonirovka": "",
         "Salon laminatsiya": "",
         "Broni plyonka": "",
