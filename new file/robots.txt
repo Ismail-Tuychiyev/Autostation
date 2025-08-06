@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://avtostation.com/sitemap.xml

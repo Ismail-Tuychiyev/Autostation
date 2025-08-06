@@ -362,3 +362,64 @@ body {
     }
   }
   
+
+  .site-footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px 20px;
+    font-family: sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+  }
+  
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-phone {
+    font-size: 16px;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .design-credit {
+    margin-top: 5px;
+    color: #aaa;
+  }
+  
+  @media (max-width: 600px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .social-icons {
+      margin-top: 15px;
+    }
+  }
+  

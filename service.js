@@ -174,7 +174,7 @@ const serviceData = {
           ],
           price: "$130",
           date: "2 kun",
-          video: "IMG_7242.MOV"
+          video: "5video.mp4"
         },
         
       
@@ -191,7 +191,7 @@ const serviceData = {
           ],
           price: "$130",
           date: "2 kun",
-          video: "IMG_7242.MOV"
+          video: "5video.mp4" 
         },
         
       
