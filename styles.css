@@ -272,7 +272,7 @@ body {
   .slider-track {
     display: flex;
     gap: 30px;
-    animation: slide 20s linear infinite;
+    animation: slide 70s linear infinite;
     width: max-content;
   }
   
