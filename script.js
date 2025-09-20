@@ -139,6 +139,74 @@ const cars = {
           "Ximchistka": ""
         }
       },
+
+
+     "Byd E2": {
+        img: "https://bydauto.uz/media/1722968137_792.webp",
+        services: {
+          "Keramika": "$100",
+          "Polirofka": "$90",
+          "Tonirovka": "",
+          "Salon laminatsiya": "",
+          "Broni plyonka": "",
+          "Shumka": "",
+          "Ximchistka": ""
+        }
+      },
+
+
+        "Byd song plus": {
+        img: "byd song plus.png",
+        services: {
+          "Keramika": "$100",
+          "Polirofka": "$90",
+          "Tonirovka": "",
+          "Salon laminatsiya": "",
+          "Broni plyonka": "",
+          "Shumka": "",
+          "Ximchistka": ""
+        }
+      },
+
+       "Byd tang": {
+        img: "90.png",
+        services: {
+          "Keramika": "$100",
+          "Polirofka": "$90",
+          "Tonirovka": "",
+          "Salon laminatsiya": "",
+          "Broni plyonka": "",
+          "Shumka": "",
+          "Ximchistka": ""
+        }
+      },
+      "Byd chazor": {
+        img: "chazor.png",
+        services: {
+          "Keramika": "$100",
+          "Polirofka": "$90",
+          "Tonirovka": "",
+          "Salon laminatsiya": "",
+          "Broni plyonka": "",
+          "Shumka": "",
+          "Ximchistka": ""
+        }
+      },
+
+        "Byd han": {
+        img: "hon.png",
+        services: {
+          "Keramika": "$100",
+          "Polirofka": "$90",
+          "Tonirovka": "",
+          "Salon laminatsiya": "",
+          "Broni plyonka": "",
+          "Shumka": "",
+          "Ximchistka": ""
+        }
+      },
+      
+      
     // ➕ Add more cars if you want
   };
   
