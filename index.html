@@ -1,88 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <title>Avtostation: Avtomobil xizmatlari markazi</title>
-  <meta  name="description" content="Avtostation — avtomobilingiz uchun keramika, polirovka, tanifrovka va boshqa xizmatlarni taqdim etadi. Ishonchli va tezkor xizmatlar shu yerda.">  
-  <link rel="stylesheet" href="styles.css" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Avtostation",
-      "url": "https://avtostation.com",
-      "logo": "https://avtostation.com/logo.png"
-    }
-    </script>
-</head>
-<body>
-  <header class="glass-nav">
-    <a href="Aloqa.html" style="position: relative; left: -45px;bottom: 30px; color: rgb(255, 255, 255);text-decoration: none;"><b>Aloqaga chiqish</b></a>
-    <a href="index.html"><img src="Logo animation copy.png" alt="" style="width: 70px;margin-left: -35px;margin-right: -35px;"></a>
-    <a href="bizhaqimizda.html" style="position: relative; left: 45px;bottom: 30px; margin-right: 19px; color: rgb(255, 255, 255);text-decoration: none;"><b>biz haqimizda</b></a>
-    <p style="font-size: small; ">Aftomobilingizni tanlang va hizmatlarimiz narhidan bilib oling</p>
-  </header>
-
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+<header class="site-header">
+<!-- Announcement Bar -->
+<div class="ann-bar">
+  <div class="ann-container">
+    <div class="ann-slide active">✅ 150 ming so‘mdan <strong>bepul yetkazib berish</strong></div>
+    <div class="ann-slide">↩️ <strong>7 kun</strong> ichida qaytarish</div>
+    <div class="ann-slide">💳 To‘lov: <strong>Naqd / POS / COD</strong></div>
+  </div>
+</div>
 
 
-  <section class="video-slider">
-    <div class="slider-track">
+<!-- Main Nav -->
+<nav class="main-nav glass-nav" aria-label="Asosiy navigatsiya">
+<div class="nav-left">
+<button class="nav-burger" aria-label="Menyuni ochish" aria-expanded="false">☰</button>
+<ul class="nav-links">
+<li><a href="#tanifrovka">TANIROFKA</a></li>
+<li><a href="#bron">BRON PLYONKA</a></li>
+<li><a href="#shumka">SHUMKA</a></li>
+<li><a href="#polirovka">PALIROFKA</a></li>
+</ul>
+</div>
 
 
+<div class="nav-right">
+<button class="search-btn" id="openSearch" aria-label="Qidirish">
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+    <circle cx="11" cy="11" r="7" stroke="currentColor" fill="none" stroke-width="2"/>
+    <line x1="16.5" y1="16.5" x2="22" y2="22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+  <span class="search-text">Qidirish</span>
+</button>
+<a class="brand" href="index.html" aria-label="AvtoStation logotip">
+<img src="Logo animation copy.png" alt="AS logo" />
+</a>
+</div>
+</nav>
+</header>
 
 
+<!-- Search Overlay -->
 
-      <div class="video-card">
-        <video src="1video.mp4" autoplay muted loop></video>
-        <p>Keramika</p>
-      </div>
-      <div class="video-card">
-        <video src="2video.mp4" autoplay muted loop></video>
-        <p>Shumka</p>
-      </div>
-      <div class="video-card">
-        <video src="4video.mp4" autoplay muted loop></video>
-        <p>Palirofka</p>
-      </div>
-      <div class="video-card">
-        <video src="3video.mp4" autoplay muted loop></video>
-        <p>shumka</p>
-      </div>
-      <div class="video-card">
-        <video src="10.mp4" autoplay muted loop></video>
-        <p>Broni plyonka</p>
-      </div>
+
+ <section class="hero" style="--hero:url('new file/ish.png')">
+  <div class="hero__inner">
+    <div class="hero__copy">
+      <h1>ISH SIFAT</h1>
+      <p class="hero-sub">Premium xizmat</p>
+      <a href="#car-list" class="btn-primary">Ko‘rish</a>
+    </div>
+  </div>
+</section>
+
 
   
-      <div class="video-card">
-        <video src="1video.mp4" autoplay muted loop></video>
-        <p>Keramika</p>
-      </div>
-      <div class="video-card">
-        <video src="2video.mp4" autoplay muted loop></video>
-        <p>Shumka</p>
-      </div>
-      <div class="video-card">
-        <video src="4video.mp4" autoplay muted loop></video>
-        <p>Sifat</p>
-      </div>
-      <div class="video-card">
-        <video src="3video.mp4" autoplay muted loop></video>
-        <p>Polirofka</p>
-      </div>
-      <div class="video-card">
-        <video src="10.mp4" autoplay muted loop></video>
-        <p>Broni plyonka</p>
-      </div>
-
-
-
-    </div>
-
-
-
-  </section>
 
 
   <main id="car-list">
@@ -151,6 +125,46 @@
     });
   });
 </script>
+
+
+
+<script>
+// Burger toggle
+const nav = document.querySelector('.main-nav');
+const burger = document.querySelector('.nav-burger');
+if (burger){
+burger.addEventListener('click', ()=>{
+const open = nav.classList.toggle('open');
+burger.setAttribute('aria-expanded', String(open));
+});
+}
+
+
+// Search overlay
+const openBtn = document.getElementById('openSearch');
+const overlay = document.getElementById('searchOverlay');
+const closeSearchEls = [document.getElementById('xClose'), document.getElementById('closeSearch')];
+if (openBtn && overlay){
+openBtn.addEventListener('click', ()=> overlay.classList.add('show'));
+closeSearchEls.forEach(el=> el && el.addEventListener('click', ()=> overlay.classList.remove('show')));
+window.addEventListener('keydown', (e)=>{ if(e.key==='Escape') overlay.classList.remove('show'); });
+}
+</script>
+<script>
+  // Announcement slider
+  const slides = document.querySelectorAll('.ann-slide');
+  let current = 0;
+
+  function nextSlide() {
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+  }
+
+  // har 3 soniyada o‘zgaradi
+  setInterval(nextSlide, 3000);
+</script>
+
 
   <script src="script.js"></script>
 </body>
