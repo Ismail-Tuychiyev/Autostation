@@ -1,25 +1,16 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Avtostation: Avtomobil xizmatlari markazi</title>
   <meta name="description" content="Avtostation — avtomobilingiz uchun keramika, polirovka, tanifrovka va boshqa xizmatlar. Ishonchli va tezkor servis.">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="Logo animation copy.png">
   <link rel="stylesheet" href="styles.css" />
-
-  <!-- (ixtiyoriy) Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Avtostation",
-    "url": "https://avtostation.com",
-    "logo": "https://avtostation.com/logo.png"
-  }
-  </script>
+  <script type="application/ld+json">{...}</script>
 </head>
+<body>
+  
+
 <header class="site-header">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
@@ -34,30 +25,30 @@
 
 
 <!-- Main Nav -->
-<nav class="main-nav glass-nav" aria-label="Asosiy navigatsiya">
-<div class="nav-left">
-<button class="nav-burger" aria-label="Menyuni ochish" aria-expanded="false">☰</button>
-<ul class="nav-links">
-<li><a href="#tanifrovka">TANIROFKA</a></li>
-<li><a href="#bron">BRON PLYONKA</a></li>
-<li><a href="#shumka">SHUMKA</a></li>
-<li><a href="#polirovka">PALIROFKA</a></li>
-</ul>
-</div>
+<nav class="main-nav">
+  <div class="nav-inner">
+    <!-- 1) Burger chapda -->
+    <button class="nav-burger" aria-label="Menyuni ochish" aria-expanded="false">☰</button>
 
+    <!-- 2) Qidirish o'rtada -->
+    <div class="nav-search">
+      <input type="search" placeholder="Qidirish..." aria-label="Qidirish" />
+      <button class="nav-search-btn" aria-label="Qidirish"></button>
+    </div>
 
-<div class="nav-right">
-<button class="search-btn" id="openSearch" aria-label="Qidirish">
-  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-    <circle cx="11" cy="11" r="7" stroke="currentColor" fill="none" stroke-width="2"/>
-    <line x1="16.5" y1="16.5" x2="22" y2="22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-  </svg>
-  <span class="search-text">Qidirish</span>
-</button>
-<a class="brand" href="index.html" aria-label="AvtoStation logotip">
-<img src="Logo animation copy.png" alt="AS logo" />
-</a>
-</div>
+    <!-- 3) Logo o'ngda -->
+    <a href="index.html" class="nav-logo" aria-label="AutoStation">
+      <img src="Logo animation copy.png" alt="AutoStation" />
+    </a>
+
+    <!-- Linklar (burger ochilganda ko'rinadi) -->
+    <ul class="nav-links">
+      <li><a href="#tanifrovka">Tanirоfka</a></li>
+      <li><a href="#bron">Bron plyonka</a></li>
+      <li><a href="#shumka">Shumka</a></li>
+      <li><a href="#polirovka">Polirofka</a></li>
+    </ul>
+  </div>
 </nav>
 </header>
 
@@ -150,14 +141,13 @@
 
 <script>
 // Burger toggle
-const nav = document.querySelector('.main-nav');
-const burger = document.querySelector('.nav-burger');
-if (burger){
-burger.addEventListener('click', ()=>{
-const open = nav.classList.toggle('open');
-burger.setAttribute('aria-expanded', String(open));
+
+const burger = document.querySelector(".nav-burger");
+const nav = document.querySelector(".main-nav");
+burger.addEventListener("click", () => {
+  nav.classList.toggle("open");
 });
-}
+
 
 
 // Search overlay
@@ -184,6 +174,10 @@ window.addEventListener('keydown', (e)=>{ if(e.key==='Escape') overlay.classList
   // har 3 soniyada o‘zgaradi
   setInterval(nextSlide, 3000);
 </script>
+
+
+
+
 
 
   <script src="script.js"></script>
